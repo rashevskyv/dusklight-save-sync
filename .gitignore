@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+config.json
+.github-auth/
+*.gci
+*.iso
+*.rvz
+*.wbfs
+*.dol
+*.AppImage
+*.log
+.save-*
+DusklightData/
+watcher-backups/
+soft/

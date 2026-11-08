@@ -1,0 +1,10 @@
+{
+  "name": "Dusklight Save Sync",
+  "author": "Local Steam Deck setup",
+  "flags": [],
+  "api_version": 1,
+  "publish": {
+    "tags": ["saves", "notifications"],
+    "description": "Status and Game Mode notifications for the local Dusklight save watcher."
+  }
+}

@@ -1,0 +1,19 @@
+[Unit]
+Description=Dusklight bidirectional GitHub save watcher
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=notify
+ExecStart=/usr/bin/python3 -u "%h/Downloads/Twilight Princess/save_watcher.py"
+WorkingDirectory=%h/Downloads/Twilight Princess
+Environment=PATH=/usr/bin:/bin
+UMask=0077
+Restart=always
+RestartSec=5
+TimeoutStopSec=50
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=default.target

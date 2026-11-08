@@ -1,0 +1,12 @@
+{
+  "github_repo": "https://github.com/YOUR_USERNAME/YOUR_PRIVATE_SAVE_REPOSITORY",
+  "branch": "main",
+  "saves_repo_path": "Saves",
+  "dusklight_user_dir": "DusklightData",
+  "save_format": "gci",
+  "watcher": {
+    "quiet_seconds": 4,
+    "cloud_poll_seconds": 30,
+    "disc_id": "GZ2E01"
+  }
+}
