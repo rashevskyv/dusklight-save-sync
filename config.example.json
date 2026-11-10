@@ -4,9 +4,12 @@
   "saves_repo_path": "Saves",
   "dusklight_user_dir": "DusklightData",
   "save_format": "gci",
+  "device_name": "Steam Deck",
   "watcher": {
     "quiet_seconds": 4,
     "cloud_poll_seconds": 30,
-    "disc_id": "GZ2E01"
+    "alert_after_seconds": 30,
+    "disc_id": "GZ2E01",
+    "process_names": ["dusklight"]
   }
 }

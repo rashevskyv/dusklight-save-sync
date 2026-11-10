@@ -10,6 +10,10 @@ config.json
 *.AppImage
 *.log
 .save-*
+.translation-state.json
 DusklightData/
+save-backups/
 watcher-backups/
+iso-work/
 soft/
+dusklight.png

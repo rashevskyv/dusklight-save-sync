@@ -1,0 +1,25 @@
+{
+  "github_repo": "https://github.com/YOUR_USERNAME/YOUR_PRIVATE_SAVE_REPOSITORY",
+  "branch": "main",
+  "saves_repo_path": "Saves",
+  "dusklight_user_dir": "D:/Games/Dusklight/data",
+  "save_format": "gci",
+  "game_title": "Twilight Princess",
+  "device_name": "Windows PC",
+  "watcher": {
+    "quiet_seconds": 4,
+    "cloud_poll_seconds": 30,
+    "alert_after_seconds": 30,
+    "disc_id": "GZ2E01",
+    "process_names": ["dusklight"]
+  },
+  "launcher": {
+    "game_exe": "D:/Games/Dusklight/dusklight.exe",
+    "iso": "D:/Games/Twilight Princess (USA)_UA.iso",
+    "source_image": "D:/Games/Twilight Princess (USA).rvz",
+    "dolphin_tool": "D:/Emulators/Dolphin/DolphinTool.exe",
+    "translation_dirs": {"Fontus": "res/Fontus", "Msgus": "res/Msgus"},
+    "builder": "D:/Tools/GCRebuilder/gcr.exe",
+    "work_dir": "D:/Games/Dusklight-iso-work"
+  }
+}
